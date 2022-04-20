@@ -1,0 +1,100 @@
+input[type=text]{
+  /*  margin-left: 25%;
+    margin-right: 25%;*/
+   
+    text-align: left;
+    width: 500px;
+    height: 40px;
+    /*padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 18px;*/
+    border-radius: 40px; 
+    border-color:rgb(236, 224, 224) ;
+    font-family: arial, sans-serif;
+    /*box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);*/
+}
+input[type=submit]{
+    border-radius:5px;
+    background-color: whitesmoke;
+    
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+   /* box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);*/
+}
+input[type=button]{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+div{
+    text-align:center;
+    
+
+}
+html{
+    background-color:white;
+}
+#img-adv{
+    text-align: right;
+    margin: 15px 5px;
+    margin-left: 5px;
+    border-radius:2px ;
+    font-family: arial, sans-serif;
+    padding-left:3px ;
+    padding-right:3px ;
+    padding-top:3px ;
+    padding-bottom:3px ;
+
+}
+button{
+    border-radius:5px;
+    
+    background-color: white;
+   border:none;
+   
+}
+/*button:hover{
+    
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+    
+    
+}*/
+input[type=text]:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+    
+}
+input[type=submit]:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}
+input[type=button]:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}
+a{
+    text-decoration:none;
+}
+.line:hover{
+    text-decoration:underline;
+}
+#lucky{
+    border-radius:5px;
+    background-color: whitesmoke;
+    
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: black;
+}
+#lucky:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}
